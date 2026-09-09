@@ -3,6 +3,7 @@ import footerBg from "../assets/footerimg.webp";
 import footerlogo from "../assets/footerlogo.webp";
 import { MoveRight } from "lucide-react";
 import InvitationPopup from "./InvitationPopup";
+import {Link} from "react-router-dom";
 
 const Footer = () => {
   const quickLinks = [
@@ -199,9 +200,15 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="py-5 flex flex-col items-center gap-3     text-xs text-white/70 sm:mt-14 sm:flex-row sm:justify-between">
           <p>© 2026 Soul Tales. All rights reserved.</p>
-          <p className="order-first sm:order-none">
-            Thoughtfully Curated And Marketed By Osumare
-          </p>
+         <Link
+  to="https://osumare.com/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <p className="order-first sm:order-none font-[oswald] text-xl text-white">
+    Thoughtfully Curated And Marketed By Osumare
+  </p>
+</Link>
           <div className="flex gap-4">
             <a href="/privacy-policy" className="hover:opacity-70">
               Privacy Policy
