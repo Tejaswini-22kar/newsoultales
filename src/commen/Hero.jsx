@@ -64,34 +64,75 @@ const [isInvitationOpen, setIsInvitationOpen] = useState(false);
               text-center
             "
           >
-            <h1
-              className="
-                m-0
-                inline-block
-                font-['Oswald']
-                text-[77px]
-                font-black
-                leading-none
-                tracking-[0.05em]
-                text-[#f4f6f4]
-                uppercase
+           {/* Desktop / tablet: TRUENORTH */}
+<h1
+  className="
+    m-0
+    hidden
+    sm:inline-block
+    font-['Oswald']
+    font-black
+    leading-none
+    tracking-[0.05em]
+    text-[#f4f6f4]
+    uppercase
 
-                sm:text-[90px]
-                sm:tracking-[0.07em]
+    sm:text-[90px]
+    sm:tracking-[0.07em]
 
-                md:text-[140px]
+    md:text-[140px]
 
-                lg:text-[220px]
-                lg:tracking-[0.09em]
+    lg:text-[220px]
+    lg:tracking-[0.09em]
 
-                [mask-image:linear-gradient(180deg,black_0%,black_40%,transparent_85%)]
-                [-webkit-mask-image:linear-gradient(180deg,black_56%,black_60%,transparent_89%)]
+    [mask-image:linear-gradient(180deg,black_0%,black_40%,transparent_85%)]
+    [-webkit-mask-image:linear-gradient(180deg,black_56%,black_60%,transparent_89%)]
 
-                animate-[headingReveal_1.4s_cubic-bezier(.65,0,.35,1)_both]
-              "
-            >
-              TRUENORTH
-            </h1>
+    animate-[headingReveal_1.4s_cubic-bezier(.65,0,.35,1)_both]
+  "
+>
+  TRUENORTH
+</h1>
+
+{/* Mobile: TRUE / NORTH stacked, gradient fades from NORTH up into TRUE */}
+{/* Mobile: TRUE / NORTH stacked, each word has its own bottom fade */}
+<h1
+  aria-label="True North"
+  className="
+    m-0
+    block
+    sm:hidden
+    font-['Oswald']
+    text-[96px]
+    font-black
+    leading-[1.2]
+    tracking-[0.05em]
+    text-[#f4f6f4]
+    uppercase
+
+    animate-[headingReveal_1.4s_cubic-bezier(.65,0,.35,1)_both]
+  "
+>
+  <span
+    className="
+      block
+      [mask-image:linear-gradient(180deg,black_0%,black_62%,transparent_100%)]
+      [-webkit-mask-image:linear-gradient(180deg,black_56%,black_60%,transparent_89%)]
+    "
+  >
+    TRUE
+  </span>
+  
+  <span
+    className="
+      block
+      [mask-image:linear-gradient(180deg,black_0%,black_62%,transparent_100%)]
+      [-webkit-mask-image:linear-gradient(180deg,black_56%,black_60%,transparent_89%)]
+    "
+  >
+    NORTH
+  </span>
+</h1>
           </div>
 
           <div
