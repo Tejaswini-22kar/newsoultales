@@ -13,7 +13,7 @@ const SixDays = () => {
   {/* Image Container */}
   <div className="group relative mx-auto  overflow-hidden">
     <img
-      src={day1}
+      src="day1.webp"
       alt="Day 01"
       className="
         h-[466px]
@@ -56,7 +56,7 @@ const SixDays = () => {
   {/* Image Container */}
   <div className="group relative mx-auto  overflow-hidden">
     <img
-      src={day2}
+      src="day2.webp"
       alt="Day 01"
       className="
         h-[466px]
@@ -96,7 +96,7 @@ Today is about the yes. The one that leaves your mouth before you have decided a
   {/* Image Container */}
   <div className="group relative mx-auto  overflow-hidden">
     <img
-      src={day3}
+      src="day3.webp"
       alt="Day 01"
       className="
         h-[466px]
@@ -136,7 +136,7 @@ The afternoon is left long and quiet on purpose. In the evening, fire.
   {/* Image Container */}
   <div className="group relative mx-auto  overflow-hidden">
     <img
-      src={day4}
+     src="day4.webp"
       alt="Day 01"
       className="
         h-[466px]
@@ -176,7 +176,7 @@ We gather again in the evening. You say what you want to say, or you say nothing
   {/* Image Container */}
   <div className="group relative mx-auto  overflow-hidden">
     <img
-      src={day5}
+     src="day5.webp"
       alt="Day 01"
       className="
         h-[466px]
@@ -216,7 +216,7 @@ The last evening circle runs long. The fire stays lit.
   {/* Image Container */}
   <div className="group relative mx-auto overflow-hidden">
   <img
-    src={day6}
+    src="day6.webp"
     alt="Day 01"
     className="
       h-[466px]

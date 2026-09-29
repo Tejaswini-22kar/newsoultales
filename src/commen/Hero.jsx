@@ -43,7 +43,7 @@ const [isInvitationOpen, setIsInvitationOpen] = useState(false);
           transition-opacity duration-[1200ms] ease-out
           ${imgLoaded ? "opacity-100" : "opacity-0"}
         `}
-        style={{ backgroundImage: `url(${heroimg})` }}
+        style={{ backgroundImage: `url(${"/heroimg.webp"})` }}
       />
 
       {/* Optional dark overlay so text is legible even before/after fade */}
@@ -91,7 +91,7 @@ const [isInvitationOpen, setIsInvitationOpen] = useState(false);
     animate-[headingReveal_1.4s_cubic-bezier(.65,0,.35,1)_both]
   "
 >
-  TRUENORTH
+  TRUE NORTH
 </h1>
 
 {/* Mobile: TRUE / NORTH stacked, gradient fades from NORTH up into TRUE */}
@@ -212,7 +212,7 @@ const [isInvitationOpen, setIsInvitationOpen] = useState(false);
                 overflow-hidden
                 rounded-full
                 bg-white
-                px-7
+ 00               px-7
                 py-3
                 font-['syne']
                 text-sm
@@ -258,7 +258,7 @@ const [isInvitationOpen, setIsInvitationOpen] = useState(false);
               >
                 Request an Invitation
                 <span
-                  className="
+                  cl0a0ssName="
                     text-xl
                     leading-none
                     transition-transform

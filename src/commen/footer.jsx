@@ -44,7 +44,7 @@ const Footer = () => {
   return (
     <footer
       className="relative w-full overflow-hidden bg-cover bg-center bg-no-repeat text-white"
-      style={{ backgroundImage: `url(${footerBg})` }}
+    style={{ backgroundImage: "url('/footerimg.webp')" }}
     >
       {/* Local keyframes for the top shimmer line */}
       <style>{`

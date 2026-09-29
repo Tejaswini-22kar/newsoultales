@@ -131,7 +131,7 @@ const [isInvitationOpen, setIsInvitationOpen] = useState(false);
       }}
     >
       <img
-        src={sectionImg}
+        src="sectionimg.webp"
         alt="Mountain sunset"
         className="h-full w-full object-cover"
       />

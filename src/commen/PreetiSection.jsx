@@ -42,7 +42,7 @@ const PreetiSection = () => {
         {/* Background Image */}
        <img
   ref={imageRef}
-  src={preeti}
+  src="preeti.webp"
   alt="Preeti Toraskar"
   className={`h-[420px] w-full object-cover object-center sm:h-[500px] md:h-[600px] lg:h-[680px] ${
     imageVisible ? "animate-[slowFade_1.8s_ease-out_both]" : "opacity-0"
