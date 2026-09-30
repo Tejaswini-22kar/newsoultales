@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import preeti from "../assets/preeti.webp";
 
-
 const PreetiSection = () => {
   const [imageVisible, setImageVisible] = useState(false);
   const [boxVisible, setBoxVisible] = useState(false);
@@ -36,27 +35,33 @@ const PreetiSection = () => {
   }, []);
 
   return (
-    <section className="w-full">
-      <div className="relative w-full">
+    <section className="relative w-full overflow-hidden bg-black">
 
-        {/* Background Image */}
-       <img
-  ref={imageRef}
-  src="preeti.webp"
-  alt="Preeti Toraskar"
-  className={`h-[420px] w-full object-cover object-center sm:h-[500px] md:h-[600px] lg:h-[680px] ${
-    imageVisible ? "animate-[slowFade_1.8s_ease-out_both]" : "opacity-0"
-  }`}
-/>
+      <div className="mx-auto max-w-[1400px]">
+ <div className="relative w-full  ">
+        {/* Full-width background image */}
+        <img
+          ref={imageRef}
+          src={preeti}
+          alt="Preeti Toraskar"
+          className={`
+            block
+            w-full
+            h-[420px]
+            sm:h-[500px]
+            md:h-auto
+            md:aspect-[16/7]
+            md:min-h-[600px]
+            object-cover
+            object-center
+            ${
+              imageVisible
+                ? "animate-[slowFade_1.8s_ease-out_both]"
+                : "opacity-0"
+            }
+          `}
+        />
 
-        {/*
-          Mobile / tablet (< md): box sits BELOW the image,
-          pulled up with a negative margin so it overlaps
-          the bottom half of the image.
-
-          Desktop (md+): reverts to the original left-side
-          overlay, vertically centered on the image.
-        */}
         <div
           className="
             relative
@@ -100,11 +105,11 @@ const PreetiSection = () => {
               }
             `}
           >
-            <h2 className="mb-4 font-['Oswald'] text-2xl font-bold text-neutral-900 sm:text-3xl ">
+            <h2 className="mb-4 font-['Oswald'] text-2xl font-bold text-neutral-900 sm:text-3xl">
               Preeti Toraskar Leads This Journey.
             </h2>
 
-            <div className="space-y-3 text-sm leading-relaxed text-neutral-700  font-[syne]">
+            <div className="space-y-3 font-['Syne'] text-sm leading-relaxed text-neutral-700">
               <p>
                 Not a coach. Not a guru. Someone who knows the ground and
                 walks it beside you.
@@ -139,6 +144,8 @@ const PreetiSection = () => {
           </div>
         </div>
       </div>
+      </div>
+     
     </section>
   );
 };

@@ -93,7 +93,7 @@ const [isInvitationOpen, setIsInvitationOpen] = useState(false);
   return (
     <>
       <div ref={sectionRef}>
-        <section className="w-full bg-white px-6 py-16 sm:px-8 sm:py-20 md:px-12 lg:px-20">
+        <section className="w-full bg-white px-6 py-16 sm:px-8 sm:py-20 md:px-12 lg:px-20 mx-auto max-w-[1400px] ">
           <div className="mx-auto">
 
             {/* Main Heading - LEFT → RIGHT */}

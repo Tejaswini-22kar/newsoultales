@@ -25,6 +25,7 @@ const [isInvitationOpen, setIsInvitationOpen] = useState(false);
     <section
       className="
         relative
+        
         h-screen
         min-h-[500px]
         w-full
@@ -39,6 +40,7 @@ const [isInvitationOpen, setIsInvitationOpen] = useState(false);
       <div
         className={`
           absolute inset-0
+         
           bg-cover bg-top bg-no-repeat
           transition-opacity duration-[1200ms] ease-out
           ${imgLoaded ? "opacity-100" : "opacity-0"}
@@ -85,9 +87,8 @@ const [isInvitationOpen, setIsInvitationOpen] = useState(false);
     lg:text-[220px]
     lg:tracking-[0.09em]
 
-    [mask-image:linear-gradient(180deg,black_0%,black_40%,transparent_85%)]
+   [mask-image:linear-gradient(180deg,black_0%,black_76%,transparent_100%)]
     [-webkit-mask-image:linear-gradient(180deg,black_56%,black_60%,transparent_89%)]
-
     animate-[headingReveal_1.4s_cubic-bezier(.65,0,.35,1)_both]
   "
 >
@@ -116,8 +117,8 @@ const [isInvitationOpen, setIsInvitationOpen] = useState(false);
   <span
     className="
       block
-      [mask-image:linear-gradient(180deg,black_0%,black_62%,transparent_100%)]
-      [-webkit-mask-image:linear-gradient(180deg,black_56%,black_60%,transparent_89%)]
+         [mask-image:linear-gradient(180deg,black_0%,black_76%,transparent_100%)]
+    [-webkit-mask-image:linear-gradient(180deg,black_56%,black_60%,transparent_89%)]
     "
   >
     TRUE
@@ -126,8 +127,8 @@ const [isInvitationOpen, setIsInvitationOpen] = useState(false);
   <span
     className="
       block
-      [mask-image:linear-gradient(180deg,black_0%,black_62%,transparent_100%)]
-      [-webkit-mask-image:linear-gradient(180deg,black_56%,black_60%,transparent_89%)]
+     [mask-image:linear-gradient(180deg,black_0%,black_76%,transparent_100%)]
+    [-webkit-mask-image:linear-gradient(180deg,black_56%,black_60%,transparent_89%)]
     "
   >
     NORTH

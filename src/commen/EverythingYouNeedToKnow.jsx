@@ -41,7 +41,7 @@ const EverythingYouNeedToKnow = () => {
   };
 
   return (
-    <section className="w-full bg-white px-4 py-16 sm:px-8 sm:py-20 md:px-12 lg:px-20">
+    <section className="w-full bg-white px-4 py-16 sm:px-8 sm:py-20 md:px-12 lg:px-20 mx-auto max-w-[1400px] ">
       <div className="mx-auto px-4 sm:px-10 md:px-16 lg:px-28">
 
         {/* Heading */}

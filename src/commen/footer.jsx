@@ -72,7 +72,7 @@ const Footer = () => {
       {/* Dark overlay for readability */}
       <div className="absolute inset-0 bg-black/60" />
 
-      <div className="relative z-10 mx-auto  pb-0 px-6 py-14 sm:px-10 sm:pt-28 md:px-20">
+      <div className="relative z-10    pb-0 px-6 py-14 sm:px-10 sm:pt-28 md:px-20 mx-auto max-w-[1400px] ">
         {/* Top Row: Quick Links / Center Message / Social */}
         <div className="flex flex-col gap-12 md:flex-row md:justify-between md:gap-4">
           {/* Quick Links */}

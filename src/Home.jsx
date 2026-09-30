@@ -103,7 +103,7 @@ const [isInvitationOpen, setIsInvitationOpen] = useState(false);
 
      <section
   ref={holdsRef}
-  className="w-full bg-white px-4 sm:px-8 md:px-20"
+  className="w-full bg-white px-4 sm:px-8 md:px-20 mx-auto max-w-[1400px]  "
 >
   <div className="mx-auto grid grid-cols-12 gap-4 md:gap-6">
 
@@ -313,9 +313,11 @@ const [isInvitationOpen, setIsInvitationOpen] = useState(false);
 
       <section
         ref={anotherYearRef}
-        className="mt-20 bg-[#f7f0ea] py-20"
+        className="mt-20 bg-[#f7f0ea] py-20  "
       >
-        <div className="mx-auto max-w-[1100px] px-6 md:px-10">
+
+        <div className="mx-auto max-w-[1400px] ">
+ <div className="mx-auto max-w-[1100px] px-6 md:px-10">
 
           <h2
             className={`
@@ -533,6 +535,8 @@ const [isInvitationOpen, setIsInvitationOpen] = useState(false);
           </p>
 
         </div>
+        </div>
+       
 
       
 

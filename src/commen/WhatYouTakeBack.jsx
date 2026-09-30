@@ -85,7 +85,7 @@ That's the return. It doesn't show up in your calendar. It shows up in the peopl
 
   return (
     <>
-      <section className="w-full bg-white px-4 py-16 sm:px-8 sm:py-6 md:px-12 lg:px-20">
+      <section className="w-full bg-white px-4 py-16 sm:px-8 sm:py-6 md:px-12 lg:px-20 mx-auto max-w-[1400px] ">
         <div className="mx-auto">
 
           {/* Heading */}
